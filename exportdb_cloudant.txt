@@ -1,0 +1,39 @@
+YOU MUST BE IN YOUR'S FILE DIRECTORY
+
+
+REQUIREMENTS
+
+npm install -g nosqlimport
+npm install -g nosqlimport-couchdb
+
+
+GENERAL PROCEDURE 
+
+FOR CLOUDANT/COUCHDB
+
+LINUX/UNIX
+
+export NOSQL_URL=https://myusername:mypassword@myaccount.cloudant.com
+
+export NOSQL_DATABASE=test2
+ 
+WINDOWS
+
+SET NOSQL_URL=https://myusername:mypassword@myaccount.cloudant.com
+
+SET NOSQL_DATABASE=test2
+
+EXPORT EXAMPLE:
+UNIX/LINUX
+cat central2.txt | nosqlimport -n couchdb
+WINDOWS
+type central2.txt | nosqlimport -n couchdb
+
+
+************************************************************
+REFERENCE:  https://developer.ibm.com/clouddataservices/2016/09/19/import-json-nosqlimport/
+
+
+
+
+
